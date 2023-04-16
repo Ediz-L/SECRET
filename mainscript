@@ -2017,7 +2017,7 @@ function library:AddWindow(title, options)
 end
 
 do -- Example UI
-	local Window = library:AddWindow("Dansploit - Doors", {
+	local Window = library:AddWindow("Zettiks - Doors", {
 		main_color = Color3.fromRGB(0, 0, 0),
 		min_size = Vector2.new(300, 320),
 		toggle_key = Enum.KeyCode.RightShift,
@@ -2027,42 +2027,31 @@ do -- Example UI
 
 	do -- Element
 		Tab:AddLabel("Zettiks Doors")
-		Tab:AddButton("Full Bright", function()
+		Tab:AddButton("MSDOORS", function()
 			loadstring('https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua'),true))()
 		end)
-		Tab:AddButton("Full Bright Flashlight +20", function()
+		Tab:AddButton("Doors Entity Spawner", function()
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySpawner/main/DoorsSpawnerGUIScript'))()
 		end)
-                Tab:AddButton("Flashlight Range +10", function()
+                Tab:AddButton("Infinity Yield", function()
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 		end)
-		Tab:AddButton("Walkspeed ON", function()
+		Tab:AddButton("Vynixius Hub", function()
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua,true'))()
 		end)
-
-		Tab:AddButton("Walkspeed OFF", function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/HFLkawSE", true))()
-		end)
-                 Tab:AddButton("Remove Doors", function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/4m2Nw1Kr", true))()
-            
-		end)
-
-                Tab:AddButton("Remove Fake Doors", function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/ZcNPGJfQ", true))()
-            
-		end)
-
-                Tab:AddButton("Remove Walls", function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/YCGN6bnD", true))()
-            
-		end)
-
-                Tab:AddButton("Fly (E)", function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/G3GnBCyC", true))()
-            
-		end)
 		
+		Tab:AddButton("M249", function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ediz-L/SECRET/main/codedm249'))()
+		end)
+                Tab:AddButton("Safe Lantern", function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ediz-L/SECRET/main/codedlantern'))()
+            
+		end)
+
+                Tab:AddButton("Gravity Gun", function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ediz-L/SECRET/main/codedgrv'))()
+            
+		end)
 
 	end
 
